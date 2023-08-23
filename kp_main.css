@@ -404,6 +404,72 @@ h1, h2, h3, h4, p, ul, li {
 
 
 
+/* TEST TEST TEST */
+
+
+
+
+.img-test-container {
+  position: relative;
+  display: flex;
+  aspect-ratio: 6/4;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0; 
+  width: 100%;
+  height: 100%;
+  border: dotted rgba(255, 166, 0, 50%) 0.4rem;
+  /* background-image: url("./images/kp.png");  */
+  /* background-size: 100%;
+  background-repeat: no-repeat; 
+  background-size: contain; */
+}
+
+
+.img-test-container-z-1 {
+  position: absolute;
+  z-index: -1;
+  margin: 0 0 0 0;
+  top: 5%;
+  left: 0%;
+  padding: 15% 0 0 1rem;
+  width: 100%;
+  height: 100%;
+  border-style: double;
+  border-width: 0.3rem 0.1rem 0.2rem 0.1rem;
+  border-radius: 95% 4% 97% 5% / 4% 94% 3% 95%;
+  transform: rotate(0deg);
+  /* display: none; */ 
+  
+  background-image: url("./images/kp.png"); 
+  background-size: 100%;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.img-test-container-z-2 {
+  position: absolute;
+  z-index: 0;
+  margin: 0 0 0 0;
+  top: 10%;
+  left: 5%;
+  padding: 0 0 0 0;
+  width: 90%;
+  height: 60%;
+  border-style: solid;
+  border-width: 0.1rem 0.15rem 0.1rem 0.15rem;
+  border-radius: 95% 4% 97% 5%/4% 94% 3% 95%;
+  transform: rotate(0deg);
+  /* display: none; */
+}
+
+
+
+
+
+
+
 #up-button {
   display: none;
   position: fixed;
